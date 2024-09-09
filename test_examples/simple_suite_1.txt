@@ -1,0 +1,10 @@
+Extract the address and return in structured form:
+
+Fake Moon Landings Inc.
+
+Suite 999 
+Central Business Centre 
+Fordpark Road
+Newcastle upon Tyne
+
+L40 2OP
