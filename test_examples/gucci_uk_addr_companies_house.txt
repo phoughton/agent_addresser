@@ -1,0 +1,5 @@
+Extract the address and return in structured form:
+
+
+GUCCI LIMITED
+5th Floor Rear Suite, Oakfield House 35 Perrymount Road, Haywards Heath, West Sussex, RH16 3BW
