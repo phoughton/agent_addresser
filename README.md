@@ -1,4 +1,4 @@
-# Converting free text into structured data
+# Converting free text addresses into structured data
 
 Large Language Models are surprisingly good ad parsing addresses, but they need help to do it.
 
