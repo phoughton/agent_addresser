@@ -1,5 +1,3 @@
-Extract the address and return in structured form:
-
 Fake Moon Landings Inc.
 
 Suite 999 

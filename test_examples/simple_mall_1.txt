@@ -1,5 +1,3 @@
-Extract the address and return in structured form:
-
 Gucci
 Unit 1019 The Village, Westfield Shopping Center, Ariel Way
 London, Great Britain, W12 7GF, United Kingdom

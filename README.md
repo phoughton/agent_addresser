@@ -42,7 +42,7 @@ python addr_raw_to_iso_structured.py --format xml
 ```
 
 Should return: 
-```json
+```xml
 <?xml version="1.0" ?>
 <Cdtr>
         <Nm>Fake Moon Landings Inc.</Nm>
@@ -55,4 +55,29 @@ Should return:
                 <Ctry>GB</Ctry>
         </PstlAdr>
 </Cdtr>
+```
+
+### Specify a different example address:
+
+You can specify another address by just pointing to the file...
+```bash
+python addr_raw_to_iso_structured.py --file test_examples/gucci_uk_addr_companies_house.txt
+```
+
+The output:
+```json
+{
+    "Nm": "GUCCI LIMITED",
+    "PstlAdr": {
+        "StrtNm": "Perrymount Road",
+        "BldgNb": "35",
+        "BldgNm": "Oakfield House",
+        "Flr": "5",
+        "Room": "Rear Suite",
+        "PstCd": "RH16 3BW",
+        "TwnNm": "Haywards Heath",
+        "CtrySubDvsn": "West Sussex",
+        "Ctry": "GB"
+    }
+}
 ```

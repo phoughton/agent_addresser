@@ -40,8 +40,10 @@ assist_prompt = msgb.unstruct_to_struct_prompt()
 assist_msg = msgb.msg_from_prompt(assist_prompt)
 msgs_all.append(assist_msg)
 
+
+user_prompt = "Extract the address and return in structured form:\n\n"
 with open(args.file, "r") as test_data:
-    user_prompt = test_data.read()
+    user_prompt += test_data.read()
 
 user_msg = msgb.msg_from_prompt(user_prompt, type="user")
 
