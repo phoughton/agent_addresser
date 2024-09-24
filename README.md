@@ -1,12 +1,12 @@
 # Converting free text addresses into structured data
 
-Large Language Models are surprisingly good ad parsing addresses, but they need help to do it.
+Large Language Models are surprisingly good at parsing addresses, but they need help to do it.
 
-This code contains a a collection of examples as prompts collated into a simnple tool that can parse your text into a structured address.
+This code contains a collection of examples as prompts collated into a simple tool that can parse your text into a structured address.
 
-Its built around the ISO20022 address used in PACS008.001.08 (for CBPR+). Why? Well thats the initial version thats planned to roll out late in 2025.
+Its built around the ISO20022 address used in PACS008.001.08 (for CBPR+). Why? Well thats the initial version thats planned to roll out late in 2025 - and it specifies a more detailed - field by field (preferred) format for addresses.
 
-(I focus on the fully structured address for now, as opposed to the Hybrid address, as thats the interesting technical challenge.)
+(I focus on the fully structured address for now, as opposed to the not-preferred Hybrid address, as thats the interesting technical challenge.)
 
 ## Getting Started...
 
